@@ -12,9 +12,9 @@ PImage img;
 PImage[] imgs = new PImage[17];
 
 void setup (){
-  //colorMode(HSB);
   size(600, 600);
   
+  //Image Array
   imgs[0] = loadImage("1.jpg");  // Assign value to first element in the array
   imgs[1] = loadImage("2.jpg"); // Assign value to second element in the array
   imgs[2] = loadImage("3.jpg");  // Assign value to third element in the array
@@ -39,7 +39,6 @@ void setup (){
   //name the new array
   //spots = new ArrayList<PVector>();  
 
-  
   //prints how many elements are in the array
   //println(spots.size());
   circles = new ArrayList<Circle>();      //this bit of code actually states that we want to create a new array
